@@ -2,7 +2,7 @@
 A modernized extension of Benjamin Graham's value criteria across ten dimensions and six concentric layers.
 
 
-**Live tool:** https://[FelixDLanger].github.io/concentric-value-model/
+**Live tool:** https://FelixDLanger.github.io/concentric-value-model/
 
 ## What this is
 
