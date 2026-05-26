@@ -1,0 +1,67 @@
+name: Quarterly CVM Data Update
+
+# Runs on the 1st of January, April, July, October at 06:00 UTC.
+# Also supports manual trigger from the Actions tab (workflow_dispatch).
+on:
+  schedule:
+    - cron: "0 6 1 1,4,7,10 *"
+  workflow_dispatch:
+
+# Required: write permission so the workflow can commit cvm-data.json back to main
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90  # 200 tickers @ ~1.5s each = ~5min minimum, headroom for retries
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Run CVM data pipeline
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+        run: |
+          python scripts/cvm_data.py
+
+      - name: Show summary of generated JSON
+        if: always()
+        run: |
+          if [ -f cvm-data.json ]; then
+            python -c "
+          import json
+          d = json.load(open('cvm-data.json'))
+          print(f\"Generated at: {d.get('generated_at')}\")
+          print(f\"Ticker count: {d.get('ticker_count')}\")
+          print(f\"Succeeded: {d.get('succeeded')}\")
+          print(f\"Failed: {d.get('failed')}\")
+          print(f\"Avg data-driven dims: {d.get('avg_data_driven_dimensions')}/10\")
+            "
+          else
+            echo "::warning::cvm-data.json not produced"
+          fi
+
+      - name: Commit and push updated cvm-data.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cvm-data.json cvm-data-run.log
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Quarterly CVM data update — $(date -u +%Y-%m-%d)"
+            git push
+          fi
