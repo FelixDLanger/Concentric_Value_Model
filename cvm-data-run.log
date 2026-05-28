@@ -1,415 +1,413 @@
-2026-05-27 08:49:26,574 INFO    ======================================================================
-2026-05-27 08:49:26,574 INFO    CVM data pipeline start · 2026-05-27T08:49:26.574131+00:00
-2026-05-27 08:49:26,574 INFO    Finnhub key present: yes
-2026-05-27 08:49:26,574 INFO    Fetching macro data from World Bank API...
-2026-05-27 08:49:45,148 INFO    Macro data fetched for 17 countries
-2026-05-27 08:49:45,150 INFO    Loaded 200 tickers from tickers.csv
-2026-05-27 08:49:45,150 INFO    [  1/200] NVDA           NVIDIA Corp
-2026-05-27 08:49:46,182 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: NVDA"}}}
-2026-05-27 08:49:48,983 INFO    [  2/200] MSFT           Microsoft Corp
-2026-05-27 08:49:49,662 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MSFT"}}}
-2026-05-27 08:49:52,393 INFO    [  3/200] AAPL           Apple Inc
-2026-05-27 08:49:52,998 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: AAPL"}}}
-2026-05-27 08:49:55,727 INFO    [  4/200] GOOGL          Alphabet Inc Class A
-2026-05-27 08:49:56,440 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GOOGL"}}}
-2026-05-27 08:49:59,174 INFO    [  5/200] AMZN           Amazon.com Inc
-2026-05-27 08:49:59,777 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: AMZN"}}}
-2026-05-27 08:50:02,518 INFO    [  6/200] META           Meta Platforms Inc
-2026-05-27 08:50:03,148 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: META"}}}
-2026-05-27 08:50:05,884 INFO    [  7/200] TSLA           Tesla Inc
-2026-05-27 08:50:06,522 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: TSLA"}}}
-2026-05-27 08:50:09,262 INFO    [  8/200] BRK-B          Berkshire Hathaway Inc
-2026-05-27 08:50:09,922 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BRK-B"}}}
-2026-05-27 08:50:12,655 INFO    [  9/200] AVGO           Broadcom Inc
-2026-05-27 08:50:13,244 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: AVGO"}}}
-2026-05-27 08:50:15,980 INFO    [ 10/200] LLY            Eli Lilly and Company
-2026-05-27 08:50:16,654 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: LLY"}}}
-2026-05-27 08:50:19,394 INFO    [ 11/200] JPM            JPMorgan Chase & Co
-2026-05-27 08:50:19,990 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: JPM"}}}
-2026-05-27 08:50:22,719 INFO    [ 12/200] V              Visa Inc
-2026-05-27 08:50:23,386 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: V"}}}
-2026-05-27 08:50:26,130 INFO    [ 13/200] WMT            Walmart Inc
-2026-05-27 08:50:26,745 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: WMT"}}}
-2026-05-27 08:50:29,498 INFO    [ 14/200] XOM            Exxon Mobil Corp
-2026-05-27 08:50:30,115 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XOM"}}}
-2026-05-27 08:50:32,846 INFO    [ 15/200] MA             Mastercard Inc
-2026-05-27 08:50:33,526 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MA"}}}
-2026-05-27 08:50:36,249 INFO    [ 16/200] ORCL           Oracle Corp
-2026-05-27 08:50:36,867 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ORCL"}}}
-2026-05-27 08:50:39,607 INFO    [ 17/200] UNH            UnitedHealth Group Inc
-2026-05-27 08:50:40,213 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: UNH"}}}
-2026-05-27 08:50:42,954 INFO    [ 18/200] JNJ            Johnson & Johnson
-2026-05-27 08:50:43,650 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: JNJ"}}}
-2026-05-27 08:50:46,379 INFO    [ 19/200] PG             Procter & Gamble Co
-2026-05-27 08:50:47,035 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: PG"}}}
-2026-05-27 08:50:49,777 INFO    [ 20/200] HD             Home Depot Inc
-2026-05-27 08:50:50,353 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: HD"}}}
-2026-05-27 08:50:53,086 INFO    [ 21/200] COST           Costco Wholesale Corp
-2026-05-27 08:50:53,761 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: COST"}}}
-2026-05-27 08:50:56,492 INFO    [ 22/200] NFLX           Netflix Inc
-2026-05-27 08:50:57,196 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: NFLX"}}}
-2026-05-27 08:50:59,928 INFO    [ 23/200] BAC            Bank of America Corp
-2026-05-27 08:51:00,513 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BAC"}}}
-2026-05-27 08:51:03,249 INFO    [ 24/200] ABBV           AbbVie Inc
-2026-05-27 08:51:03,911 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ABBV"}}}
-2026-05-27 08:51:06,655 INFO    [ 25/200] CVX            Chevron Corp
-2026-05-27 08:51:07,417 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: CVX"}}}
-2026-05-27 08:51:10,151 INFO    [ 26/200] KO             Coca-Cola Co
-2026-05-27 08:51:10,758 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: KO"}}}
-2026-05-27 08:51:13,493 INFO    [ 27/200] TMUS           T-Mobile US Inc
-2026-05-27 08:51:14,144 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: TMUS"}}}
-2026-05-27 08:51:16,884 INFO    [ 28/200] WFC            Wells Fargo & Co
-2026-05-27 08:51:17,478 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: WFC"}}}
-2026-05-27 08:51:20,204 INFO    [ 29/200] CRM            Salesforce Inc
-2026-05-27 08:51:20,824 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: CRM"}}}
-2026-05-27 08:51:23,553 INFO    [ 30/200] PLTR           Palantir Technologies Inc
-2026-05-27 08:51:24,182 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: PLTR"}}}
-2026-05-27 08:51:26,909 INFO    [ 31/200] ADBE           Adobe Inc
-2026-05-27 08:51:27,516 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ADBE"}}}
-2026-05-27 08:51:30,243 INFO    [ 32/200] MRK            Merck & Co Inc
-2026-05-27 08:51:30,839 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MRK"}}}
-2026-05-27 08:51:33,568 INFO    [ 33/200] CSCO           Cisco Systems Inc
-2026-05-27 08:51:34,174 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: CSCO"}}}
-2026-05-27 08:51:36,906 INFO    [ 34/200] ACN            Accenture plc
-2026-05-27 08:51:37,500 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ACN"}}}
-2026-05-27 08:51:40,240 INFO    [ 35/200] LIN            Linde plc
-2026-05-27 08:51:40,929 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: LIN"}}}
-2026-05-27 08:51:43,663 INFO    [ 36/200] NOW            ServiceNow Inc
-2026-05-27 08:51:44,310 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: NOW"}}}
-2026-05-27 08:51:47,049 INFO    [ 37/200] PEP            PepsiCo Inc
-2026-05-27 08:51:47,667 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: PEP"}}}
-2026-05-27 08:51:50,406 INFO    [ 38/200] TMO            Thermo Fisher Scientific Inc
-2026-05-27 08:51:51,073 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: TMO"}}}
-2026-05-27 08:51:53,805 INFO    [ 39/200] MCD            McDonald's Corp
-2026-05-27 08:51:54,401 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MCD"}}}
-2026-05-27 08:51:57,147 INFO    [ 40/200] DIS            Walt Disney Co
-2026-05-27 08:51:57,760 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: DIS"}}}
-2026-05-27 08:52:00,500 INFO    [ 41/200] IBM            International Business Machines Corp
-2026-05-27 08:52:01,186 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: IBM"}}}
-2026-05-27 08:52:03,919 INFO    [ 42/200] AMD            Advanced Micro Devices Inc
-2026-05-27 08:52:04,508 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: AMD"}}}
-2026-05-27 08:52:07,245 INFO    [ 43/200] INTU           Intuit Inc
-2026-05-27 08:52:07,853 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: INTU"}}}
-2026-05-27 08:52:10,588 INFO    [ 44/200] AXP            American Express Co
-2026-05-27 08:52:11,219 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: AXP"}}}
-2026-05-27 08:52:13,949 INFO    [ 45/200] GS             Goldman Sachs Group Inc
-2026-05-27 08:52:14,572 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GS"}}}
-2026-05-27 08:52:17,306 INFO    [ 46/200] ABT            Abbott Laboratories
-2026-05-27 08:52:17,920 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ABT"}}}
-2026-05-27 08:52:20,647 INFO    [ 47/200] QCOM           QUALCOMM Inc
-2026-05-27 08:52:21,259 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QCOM"}}}
-2026-05-27 08:52:23,984 INFO    [ 48/200] GE             GE Aerospace
-2026-05-27 08:52:24,573 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GE"}}}
-2026-05-27 08:52:27,306 INFO    [ 49/200] MS             Morgan Stanley
-2026-05-27 08:52:28,011 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MS"}}}
-2026-05-27 08:52:30,748 INFO    [ 50/200] RTX            RTX Corp
-2026-05-27 08:52:31,472 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: RTX"}}}
-2026-05-27 08:52:34,202 INFO    [ 51/200] CAT            Caterpillar Inc
-2026-05-27 08:52:34,893 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: CAT"}}}
-2026-05-27 08:52:37,627 INFO    [ 52/200] PM             Philip Morris International Inc
-2026-05-27 08:52:38,251 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: PM"}}}
-2026-05-27 08:52:40,984 INFO    [ 53/200] T              AT&T Inc
-2026-05-27 08:52:41,674 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: T"}}}
-2026-05-27 08:52:44,404 INFO    [ 54/200] TXN            Texas Instruments Inc
-2026-05-27 08:52:45,007 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: TXN"}}}
-2026-05-27 08:52:47,740 INFO    [ 55/200] DHR            Danaher Corp
-2026-05-27 08:52:48,347 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: DHR"}}}
-2026-05-27 08:52:51,086 INFO    [ 56/200] VZ             Verizon Communications Inc
-2026-05-27 08:52:51,789 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: VZ"}}}
-2026-05-27 08:52:54,522 INFO    [ 57/200] ISRG           Intuitive Surgical Inc
-2026-05-27 08:52:55,147 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ISRG"}}}
-2026-05-27 08:52:57,879 INFO    [ 58/200] PFE            Pfizer Inc
-2026-05-27 08:52:58,483 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: PFE"}}}
-2026-05-27 08:53:01,223 INFO    [ 59/200] SPGI           S&P Global Inc
-2026-05-27 08:53:01,840 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SPGI"}}}
-2026-05-27 08:53:04,579 INFO    [ 60/200] BKNG           Booking Holdings Inc
-2026-05-27 08:53:05,197 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BKNG"}}}
-2026-05-27 08:53:07,929 INFO    [ 61/200] LOW            Lowe's Companies Inc
-2026-05-27 08:53:08,534 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: LOW"}}}
-2026-05-27 08:53:11,267 INFO    [ 62/200] HON            Honeywell International Inc
-2026-05-27 08:53:11,948 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: HON"}}}
-2026-05-27 08:53:14,682 INFO    [ 63/200] NEE            NextEra Energy Inc
-2026-05-27 08:53:15,426 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: NEE"}}}
-2026-05-27 08:53:18,164 INFO    [ 64/200] PGR            Progressive Corp
-2026-05-27 08:53:18,747 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: PGR"}}}
-2026-05-27 08:53:21,474 INFO    [ 65/200] UNP            Union Pacific Corp
-2026-05-27 08:53:22,103 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: UNP"}}}
-2026-05-27 08:53:24,826 INFO    [ 66/200] UBER           Uber Technologies Inc
-2026-05-27 08:53:25,535 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: UBER"}}}
-2026-05-27 08:53:28,271 INFO    [ 67/200] AMGN           Amgen Inc
-2026-05-27 08:53:28,892 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: AMGN"}}}
-2026-05-27 08:53:31,622 INFO    [ 68/200] BSX            Boston Scientific Corp
-2026-05-27 08:53:32,298 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BSX"}}}
-2026-05-27 08:53:35,028 INFO    [ 69/200] BLK            BlackRock Inc
-2026-05-27 08:53:35,687 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BLK"}}}
-2026-05-27 08:53:38,424 INFO    [ 70/200] SCHW           Charles Schwab Corp
-2026-05-27 08:53:38,994 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SCHW"}}}
-2026-05-27 08:53:41,730 INFO    [ 71/200] ETN            Eaton Corp plc
-2026-05-27 08:53:42,405 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ETN"}}}
-2026-05-27 08:53:45,129 INFO    [ 72/200] ANET           Arista Networks Inc
-2026-05-27 08:53:45,721 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ANET"}}}
-2026-05-27 08:53:48,452 INFO    [ 73/200] GILD           Gilead Sciences Inc
-2026-05-27 08:53:49,131 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GILD"}}}
-2026-05-27 08:53:51,873 INFO    [ 74/200] DE             Deere & Co
-2026-05-27 08:53:52,461 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: DE"}}}
-2026-05-27 08:53:55,192 INFO    [ 75/200] TJX            TJX Companies Inc
-2026-05-27 08:53:55,885 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: TJX"}}}
-2026-05-27 08:53:58,619 INFO    [ 76/200] LMT            Lockheed Martin Corp
-2026-05-27 08:53:59,266 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: LMT"}}}
-2026-05-27 08:54:01,991 INFO    [ 77/200] C              Citigroup Inc
-2026-05-27 08:54:02,588 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: C"}}}
-2026-05-27 08:54:05,324 INFO    [ 78/200] BX             Blackstone Inc
-2026-05-27 08:54:06,002 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BX"}}}
-2026-05-27 08:54:08,735 INFO    [ 79/200] COP            ConocoPhillips
-2026-05-27 08:54:09,372 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: COP"}}}
-2026-05-27 08:54:12,100 INFO    [ 80/200] ADP            Automatic Data Processing Inc
-2026-05-27 08:54:12,682 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ADP"}}}
-2026-05-27 08:54:15,418 INFO    [ 81/200] SYK            Stryker Corp
-2026-05-27 08:54:16,131 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SYK"}}}
-2026-05-27 08:54:18,871 INFO    [ 82/200] PANW           Palo Alto Networks Inc
-2026-05-27 08:54:19,496 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: PANW"}}}
-2026-05-27 08:54:22,224 INFO    [ 83/200] VRTX           Vertex Pharmaceuticals Inc
-2026-05-27 08:54:22,835 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: VRTX"}}}
-2026-05-27 08:54:25,579 INFO    [ 84/200] MMC            Marsh & McLennan Companies Inc
-2026-05-27 08:54:26,059 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MMC"}}}
-2026-05-27 08:54:26,242 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MMC"}}}
-2026-05-27 08:54:28,977 INFO    [ 85/200] PLD            Prologis Inc
-2026-05-27 08:54:29,583 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: PLD"}}}
-2026-05-27 08:54:32,321 INFO    [ 86/200] MU             Micron Technology Inc
-2026-05-27 08:54:32,927 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MU"}}}
-2026-05-27 08:54:35,675 INFO    [ 87/200] KKR            KKR & Co Inc
-2026-05-27 08:54:36,256 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: KKR"}}}
-2026-05-27 08:54:38,988 INFO    [ 88/200] CB             Chubb Ltd
-2026-05-27 08:54:39,603 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: CB"}}}
-2026-05-27 08:54:42,346 INFO    [ 89/200] LRCX           Lam Research Corp
-2026-05-27 08:54:43,096 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: LRCX"}}}
-2026-05-27 08:54:45,836 INFO    [ 90/200] ELV            Elevance Health Inc
-2026-05-27 08:54:46,419 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ELV"}}}
-2026-05-27 08:54:49,184 INFO    [ 91/200] MDT            Medtronic plc
-2026-05-27 08:54:49,780 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MDT"}}}
-2026-05-27 08:54:52,529 INFO    [ 92/200] SBUX           Starbucks Corp
-2026-05-27 08:54:53,198 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SBUX"}}}
-2026-05-27 08:54:55,933 INFO    [ 93/200] ADI            Analog Devices Inc
-2026-05-27 08:54:56,627 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ADI"}}}
-2026-05-27 08:54:59,348 INFO    [ 94/200] INTC           Intel Corp
-2026-05-27 08:54:59,953 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: INTC"}}}
-2026-05-27 08:55:02,690 INFO    [ 95/200] KLAC           KLA Corp
-2026-05-27 08:55:03,302 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: KLAC"}}}
-2026-05-27 08:55:06,033 INFO    [ 96/200] PYPL           PayPal Holdings Inc
-2026-05-27 08:55:06,756 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: PYPL"}}}
-2026-05-27 08:55:09,497 INFO    [ 97/200] FI             Fiserv Inc
-2026-05-27 08:55:09,685 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FI"}}}
-2026-05-27 08:55:10,162 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FI"}}}
-2026-05-27 08:55:10,348 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FI"}}}
-2026-05-27 08:55:13,083 INFO    [ 98/200] MO             Altria Group Inc
-2026-05-27 08:55:13,698 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MO"}}}
-2026-05-27 08:55:16,428 INFO    [ 99/200] NKE            NIKE Inc
-2026-05-27 08:55:17,025 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: NKE"}}}
-2026-05-27 08:55:19,773 INFO    [100/200] BMY            Bristol-Myers Squibb Co
-2026-05-27 08:55:20,426 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BMY"}}}
-2026-05-27 08:55:23,167 INFO    [101/200] SAP.DE         SAP SE
-2026-05-27 08:55:23,773 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SAP.DE"}}}
-2026-05-27 08:55:26,518 INFO    [102/200] ASML.AS        ASML Holding NV
-2026-05-27 08:55:27,129 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ASML.AS"}}}
-2026-05-27 08:55:29,868 INFO    [103/200] MC.PA          LVMH Moet Hennessy Louis Vuitton SE
-2026-05-27 08:55:30,478 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MC.PA"}}}
-2026-05-27 08:55:33,204 INFO    [104/200] NOVO-B.CO      Novo Nordisk A/S
-2026-05-27 08:55:33,784 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: NOVO-B.CO"}}}
-2026-05-27 08:55:36,506 INFO    [105/200] NESN.SW        Nestle SA
-2026-05-27 08:55:37,121 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: NESN.SW"}}}
-2026-05-27 08:55:39,852 INFO    [106/200] ROG.SW         Roche Holding AG
-2026-05-27 08:55:40,035 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ROG.SW"}}}
-2026-05-27 08:55:40,450 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ROG.SW"}}}
-2026-05-27 08:55:40,636 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ROG.SW"}}}
-2026-05-27 08:55:43,372 INFO    [107/200] SIE.DE         Siemens AG
-2026-05-27 08:55:43,957 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SIE.DE"}}}
-2026-05-27 08:55:46,685 INFO    [108/200] OR.PA          L'Oreal SA
-2026-05-27 08:55:47,342 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: OR.PA"}}}
-2026-05-27 08:55:50,080 INFO    [109/200] TTE.PA         TotalEnergies SE
-2026-05-27 08:55:50,705 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: TTE.PA"}}}
-2026-05-27 08:55:53,446 INFO    [110/200] NOVN.SW        Novartis AG
-2026-05-27 08:55:54,045 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: NOVN.SW"}}}
-2026-05-27 08:55:56,776 INFO    [111/200] ALV.DE         Allianz SE
-2026-05-27 08:55:57,378 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ALV.DE"}}}
-2026-05-27 08:56:00,120 INFO    [112/200] RMS.PA         Hermes International
-2026-05-27 08:56:00,777 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: RMS.PA"}}}
-2026-05-27 08:56:03,515 INFO    [113/200] SAN.PA         Sanofi SA
-2026-05-27 08:56:04,203 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SAN.PA"}}}
-2026-05-27 08:56:06,958 INFO    [114/200] DTE.DE         Deutsche Telekom AG
-2026-05-27 08:56:07,553 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: DTE.DE"}}}
-2026-05-27 08:56:10,290 INFO    [115/200] SU.PA          Schneider Electric SE
-2026-05-27 08:56:10,886 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SU.PA"}}}
-2026-05-27 08:56:13,606 INFO    [116/200] AIR.PA         Airbus SE
-2026-05-27 08:56:14,177 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: AIR.PA"}}}
-2026-05-27 08:56:16,911 INFO    [117/200] ENEL.MI        Enel SpA
-2026-05-27 08:56:17,484 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ENEL.MI"}}}
-2026-05-27 08:56:20,223 INFO    [118/200] IBE.MC         Iberdrola SA
-2026-05-27 08:56:20,896 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: IBE.MC"}}}
-2026-05-27 08:56:23,629 INFO    [119/200] MUV2.DE        Munich Re
-2026-05-27 08:56:24,271 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MUV2.DE"}}}
-2026-05-27 08:56:27,012 INFO    [120/200] BNP.PA         BNP Paribas SA
-2026-05-27 08:56:27,620 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BNP.PA"}}}
-2026-05-27 08:56:30,364 INFO    [121/200] DHL.DE         Deutsche Post AG
-2026-05-27 08:56:31,038 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: DHL.DE"}}}
-2026-05-27 08:56:33,789 INFO    [122/200] ABI.BR         Anheuser-Busch InBev SA
-2026-05-27 08:56:34,457 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ABI.BR"}}}
-2026-05-27 08:56:37,190 INFO    [123/200] ASM.AS         ASM International NV
-2026-05-27 08:56:37,793 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ASM.AS"}}}
-2026-05-27 08:56:40,523 INFO    [124/200] SAN.MC         Banco Santander SA
-2026-05-27 08:56:41,148 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SAN.MC"}}}
-2026-05-27 08:56:43,876 INFO    [125/200] INGA.AS        ING Groep NV
-2026-05-27 08:56:44,554 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: INGA.AS"}}}
-2026-05-27 08:56:47,283 INFO    [126/200] ISP.MI         Intesa Sanpaolo SpA
-2026-05-27 08:56:47,870 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ISP.MI"}}}
-2026-05-27 08:56:50,605 INFO    [127/200] PRX.AS         Prosus NV
-2026-05-27 08:56:51,167 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: PRX.AS"}}}
-2026-05-27 08:56:53,913 INFO    [128/200] ADYEN.AS       Adyen NV
-2026-05-27 08:56:54,560 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ADYEN.AS"}}}
-2026-05-27 08:56:57,289 INFO    [129/200] DG.PA          Vinci SA
-2026-05-27 08:56:57,922 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: DG.PA"}}}
-2026-05-27 08:57:00,646 INFO    [130/200] ENI.MI         Eni SpA
-2026-05-27 08:57:01,271 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ENI.MI"}}}
-2026-05-27 08:57:04,018 INFO    [131/200] EL.PA          EssilorLuxottica SA
-2026-05-27 08:57:04,738 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: EL.PA"}}}
-2026-05-27 08:57:07,475 INFO    [132/200] KER.PA         Kering SA
-2026-05-27 08:57:08,088 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: KER.PA"}}}
-2026-05-27 08:57:10,822 INFO    [133/200] RACE.MI        Ferrari NV
-2026-05-27 08:57:11,413 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: RACE.MI"}}}
-2026-05-27 08:57:14,157 INFO    [134/200] DB1.DE         Deutsche Boerse AG
-2026-05-27 08:57:14,761 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: DB1.DE"}}}
-2026-05-27 08:57:17,496 INFO    [135/200] BAS.DE         BASF SE
-2026-05-27 08:57:18,127 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BAS.DE"}}}
-2026-05-27 08:57:20,852 INFO    [136/200] BAYN.DE        Bayer AG
-2026-05-27 08:57:21,448 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BAYN.DE"}}}
-2026-05-27 08:57:24,187 INFO    [137/200] MBG.DE         Mercedes-Benz Group AG
-2026-05-27 08:57:24,796 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MBG.DE"}}}
-2026-05-27 08:57:27,536 INFO    [138/200] BMW.DE         Bayerische Motoren Werke AG
-2026-05-27 08:57:28,211 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BMW.DE"}}}
-2026-05-27 08:57:30,938 INFO    [139/200] IFX.DE         Infineon Technologies AG
-2026-05-27 08:57:31,550 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: IFX.DE"}}}
-2026-05-27 08:57:34,284 INFO    [140/200] ADS.DE         Adidas AG
-2026-05-27 08:57:34,928 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ADS.DE"}}}
-2026-05-27 08:57:37,666 INFO    [141/200] SHEL.L         Shell plc
-2026-05-27 08:57:38,360 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SHEL.L"}}}
-2026-05-27 08:57:41,093 INFO    [142/200] AZN.L          AstraZeneca plc
-2026-05-27 08:57:41,722 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: AZN.L"}}}
-2026-05-27 08:57:44,445 INFO    [143/200] HSBA.L         HSBC Holdings plc
-2026-05-27 08:57:45,062 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: HSBA.L"}}}
-2026-05-27 08:57:47,805 INFO    [144/200] ULVR.L         Unilever plc
-2026-05-27 08:57:48,418 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ULVR.L"}}}
-2026-05-27 08:57:51,153 WARNING   Ticker ULVR.L failed entirely: cannot convert float NaN to integer
-2026-05-27 08:57:51,153 INFO    [145/200] RIO.L          Rio Tinto plc
-2026-05-27 08:57:51,765 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: RIO.L"}}}
-2026-05-27 08:57:54,492 INFO    [146/200] BP.L           BP plc
-2026-05-27 08:57:55,120 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BP.L"}}}
-2026-05-27 08:57:57,850 INFO    [147/200] GSK.L          GSK plc
-2026-05-27 08:57:58,448 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GSK.L"}}}
-2026-05-27 08:58:01,185 INFO    [148/200] LSEG.L         London Stock Exchange Group plc
-2026-05-27 08:58:01,778 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: LSEG.L"}}}
-2026-05-27 08:58:04,515 INFO    [149/200] DGE.L          Diageo plc
-2026-05-27 08:58:05,186 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: DGE.L"}}}
-2026-05-27 08:58:07,932 INFO    [150/200] NG.L           National Grid plc
-2026-05-27 08:58:08,542 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: NG.L"}}}
-2026-05-27 08:58:11,275 INFO    [151/200] 7203.T         Toyota Motor Corp
-2026-05-27 08:58:11,961 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 7203.T"}}}
-2026-05-27 08:58:14,694 INFO    [152/200] 6758.T         Sony Group Corp
-2026-05-27 08:58:15,343 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 6758.T"}}}
-2026-05-27 08:58:18,068 INFO    [153/200] 6098.T         Recruit Holdings Co Ltd
-2026-05-27 08:58:18,785 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 6098.T"}}}
-2026-05-27 08:58:21,528 INFO    [154/200] 8306.T         Mitsubishi UFJ Financial Group Inc
-2026-05-27 08:58:22,232 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 8306.T"}}}
-2026-05-27 08:58:24,970 INFO    [155/200] 9984.T         SoftBank Group Corp
-2026-05-27 08:58:25,603 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 9984.T"}}}
-2026-05-27 08:58:28,330 INFO    [156/200] 7974.T         Nintendo Co Ltd
-2026-05-27 08:58:28,935 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 7974.T"}}}
-2026-05-27 08:58:31,660 INFO    [157/200] 8035.T         Tokyo Electron Ltd
-2026-05-27 08:58:32,450 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 8035.T"}}}
-2026-05-27 08:58:35,181 INFO    [158/200] 9983.T         Fast Retailing Co Ltd
-2026-05-27 08:58:35,807 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 9983.T"}}}
-2026-05-27 08:58:38,543 INFO    [159/200] 6861.T         Keyence Corp
-2026-05-27 08:58:39,274 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 6861.T"}}}
-2026-05-27 08:58:42,004 INFO    [160/200] 8316.T         Sumitomo Mitsui Financial Group Inc
-2026-05-27 08:58:42,623 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 8316.T"}}}
-2026-05-27 08:58:45,350 INFO    [161/200] 4063.T         Shin-Etsu Chemical Co Ltd
-2026-05-27 08:58:45,976 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 4063.T"}}}
-2026-05-27 08:58:48,715 INFO    [162/200] 6501.T         Hitachi Ltd
-2026-05-27 08:58:49,398 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 6501.T"}}}
-2026-05-27 08:58:52,137 INFO    [163/200] 9433.T         KDDI Corp
-2026-05-27 08:58:52,755 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 9433.T"}}}
-2026-05-27 08:58:55,493 INFO    [164/200] 9432.T         Nippon Telegraph and Telephone Corp
-2026-05-27 08:58:56,178 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 9432.T"}}}
-2026-05-27 08:58:58,908 INFO    [165/200] 4502.T         Takeda Pharmaceutical Co Ltd
-2026-05-27 08:58:59,546 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 4502.T"}}}
-2026-05-27 08:59:02,273 INFO    [166/200] 7267.T         Honda Motor Co Ltd
-2026-05-27 08:59:02,902 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 7267.T"}}}
-2026-05-27 08:59:05,629 INFO    [167/200] 6594.T         Nidec Corp
-2026-05-27 08:59:06,339 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 6594.T"}}}
-2026-05-27 08:59:09,081 INFO    [168/200] 8001.T         Itochu Corp
-2026-05-27 08:59:09,777 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 8001.T"}}}
-2026-05-27 08:59:12,503 INFO    [169/200] 8058.T         Mitsubishi Corp
-2026-05-27 08:59:13,162 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 8058.T"}}}
-2026-05-27 08:59:15,909 INFO    [170/200] 8053.T         Sumitomo Corp
-2026-05-27 08:59:16,506 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 8053.T"}}}
-2026-05-27 08:59:19,226 INFO    [171/200] 2330.TW        Taiwan Semiconductor Manufacturing Co
-2026-05-27 08:59:19,866 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 2330.TW"}}}
-2026-05-27 08:59:22,602 INFO    [172/200] 2317.TW        Hon Hai Precision Industry Co (Foxconn)
-2026-05-27 08:59:23,191 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 2317.TW"}}}
-2026-05-27 08:59:25,924 INFO    [173/200] 2454.TW        MediaTek Inc
-2026-05-27 08:59:26,485 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 2454.TW"}}}
-2026-05-27 08:59:29,228 INFO    [174/200] 005930.KS      Samsung Electronics Co Ltd
-2026-05-27 08:59:29,840 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 005930.KS"}}}
-2026-05-27 08:59:32,573 INFO    [175/200] 000660.KS      SK Hynix Inc
-2026-05-27 08:59:33,316 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 000660.KS"}}}
-2026-05-27 08:59:36,052 INFO    [176/200] 035420.KS      NAVER Corp
-2026-05-27 08:59:36,649 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 035420.KS"}}}
-2026-05-27 08:59:39,376 INFO    [177/200] 207940.KS      Samsung Biologics Co Ltd
-2026-05-27 08:59:39,993 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 207940.KS"}}}
-2026-05-27 08:59:42,734 INFO    [178/200] 0700.HK        Tencent Holdings Ltd
-2026-05-27 08:59:43,408 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 0700.HK"}}}
-2026-05-27 08:59:46,139 INFO    [179/200] 9988.HK        Alibaba Group Holding Ltd
-2026-05-27 08:59:46,731 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 9988.HK"}}}
-2026-05-27 08:59:49,489 INFO    [180/200] 3690.HK        Meituan
-2026-05-27 08:59:50,170 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 3690.HK"}}}
-2026-05-27 08:59:52,911 INFO    [181/200] 9618.HK        JD.com Inc
-2026-05-27 08:59:53,519 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 9618.HK"}}}
-2026-05-27 08:59:56,253 INFO    [182/200] 1211.HK        BYD Co Ltd
-2026-05-27 08:59:56,838 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 1211.HK"}}}
-2026-05-27 08:59:59,579 INFO    [183/200] 0941.HK        China Mobile Ltd
-2026-05-27 09:00:00,200 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 0941.HK"}}}
-2026-05-27 09:00:02,932 INFO    [184/200] 0388.HK        Hong Kong Exchanges and Clearing Ltd
-2026-05-27 09:00:03,575 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 0388.HK"}}}
-2026-05-27 09:00:06,308 INFO    [185/200] 1299.HK        AIA Group Ltd
-2026-05-27 09:00:06,916 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 1299.HK"}}}
-2026-05-27 09:00:09,658 INFO    [186/200] 0005.HK        HSBC Holdings plc (HK)
-2026-05-27 09:00:10,341 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 0005.HK"}}}
-2026-05-27 09:00:13,066 INFO    [187/200] 1398.HK        Industrial and Commercial Bank of China
-2026-05-27 09:00:13,739 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 1398.HK"}}}
-2026-05-27 09:00:16,492 INFO    [188/200] 3988.HK        Bank of China Ltd
-2026-05-27 09:00:17,077 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 3988.HK"}}}
-2026-05-27 09:00:19,815 INFO    [189/200] 0883.HK        CNOOC Ltd
-2026-05-27 09:00:20,537 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 0883.HK"}}}
-2026-05-27 09:00:23,268 INFO    [190/200] 1810.HK        Xiaomi Corp
-2026-05-27 09:00:23,945 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 1810.HK"}}}
-2026-05-27 09:00:26,682 INFO    [191/200] RELIANCE.NS    Reliance Industries Ltd
-2026-05-27 09:00:27,305 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: RELIANCE.NS"}}}
-2026-05-27 09:00:30,039 INFO    [192/200] TCS.NS         Tata Consultancy Services Ltd
-2026-05-27 09:00:30,637 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: TCS.NS"}}}
-2026-05-27 09:00:33,370 INFO    [193/200] HDFCBANK.NS    HDFC Bank Ltd
-2026-05-27 09:00:33,951 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: HDFCBANK.NS"}}}
-2026-05-27 09:00:36,697 INFO    [194/200] INFY.NS        Infosys Ltd
-2026-05-27 09:00:37,290 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: INFY.NS"}}}
-2026-05-27 09:00:40,026 INFO    [195/200] ICICIBANK.NS   ICICI Bank Ltd
-2026-05-27 09:00:40,633 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ICICIBANK.NS"}}}
-2026-05-27 09:00:43,377 INFO    [196/200] BHARTIARTL.NS  Bharti Airtel Ltd
-2026-05-27 09:00:43,985 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BHARTIARTL.NS"}}}
-2026-05-27 09:00:46,727 INFO    [197/200] ITC.NS         ITC Ltd
-2026-05-27 09:00:47,314 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ITC.NS"}}}
-2026-05-27 09:00:50,045 WARNING   Ticker ITC.NS failed entirely: cannot convert float NaN to integer
-2026-05-27 09:00:50,045 INFO    [198/200] D05.SI         DBS Group Holdings Ltd
-2026-05-27 09:00:50,651 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: D05.SI"}}}
-2026-05-27 09:00:53,384 INFO    [199/200] O39.SI         Oversea-Chinese Banking Corp
-2026-05-27 09:00:53,992 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: O39.SI"}}}
-2026-05-27 09:00:56,726 INFO    [200/200] U11.SI         United Overseas Bank Ltd
-2026-05-27 09:00:57,318 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: U11.SI"}}}
-2026-05-27 09:01:00,059 INFO    Pipeline complete · 198/200 succeeded · avg 8.5/10 dims live · 693s
-2026-05-27 09:01:00,059 INFO    Output: /home/runner/work/Concentric_Value_Model/Concentric_Value_Model/cvm-data.json
+2026-05-28 02:51:14,425 INFO    ======================================================================
+2026-05-28 02:51:14,425 INFO    CVM data pipeline start · 2026-05-28T02:51:14.425292+00:00
+2026-05-28 02:51:14,425 INFO    Finnhub key present: yes
+2026-05-28 02:51:14,425 INFO    Fetching macro data from World Bank API...
+2026-05-28 02:51:24,429 INFO    Macro data fetched for 17 countries
+2026-05-28 02:51:24,431 INFO    Loaded 200 tickers from tickers.csv
+2026-05-28 02:51:24,431 INFO    [  1/200] NVDA           NVIDIA Corp
+2026-05-28 02:51:25,159 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: NVDA"}}}
+2026-05-28 02:51:27,938 INFO    [  2/200] MSFT           Microsoft Corp
+2026-05-28 02:51:28,412 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MSFT"}}}
+2026-05-28 02:51:31,129 INFO    [  3/200] AAPL           Apple Inc
+2026-05-28 02:51:31,611 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: AAPL"}}}
+2026-05-28 02:51:34,326 INFO    [  4/200] GOOGL          Alphabet Inc Class A
+2026-05-28 02:51:34,791 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GOOGL"}}}
+2026-05-28 02:51:37,501 INFO    [  5/200] AMZN           Amazon.com Inc
+2026-05-28 02:51:37,946 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: AMZN"}}}
+2026-05-28 02:51:40,652 INFO    [  6/200] META           Meta Platforms Inc
+2026-05-28 02:51:41,139 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: META"}}}
+2026-05-28 02:51:43,845 INFO    [  7/200] TSLA           Tesla Inc
+2026-05-28 02:51:44,319 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: TSLA"}}}
+2026-05-28 02:51:47,030 INFO    [  8/200] BRK-B          Berkshire Hathaway Inc
+2026-05-28 02:51:47,598 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BRK-B"}}}
+2026-05-28 02:51:50,321 INFO    [  9/200] AVGO           Broadcom Inc
+2026-05-28 02:51:50,821 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: AVGO"}}}
+2026-05-28 02:51:53,527 INFO    [ 10/200] LLY            Eli Lilly and Company
+2026-05-28 02:51:54,107 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: LLY"}}}
+2026-05-28 02:51:56,815 INFO    [ 11/200] JPM            JPMorgan Chase & Co
+2026-05-28 02:51:57,254 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: JPM"}}}
+2026-05-28 02:51:59,961 INFO    [ 12/200] V              Visa Inc
+2026-05-28 02:52:00,602 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: V"}}}
+2026-05-28 02:52:03,313 INFO    [ 13/200] WMT            Walmart Inc
+2026-05-28 02:52:03,794 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: WMT"}}}
+2026-05-28 02:52:06,502 INFO    [ 14/200] XOM            Exxon Mobil Corp
+2026-05-28 02:52:06,982 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XOM"}}}
+2026-05-28 02:52:09,691 INFO    [ 15/200] MA             Mastercard Inc
+2026-05-28 02:52:10,213 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MA"}}}
+2026-05-28 02:52:12,921 INFO    [ 16/200] ORCL           Oracle Corp
+2026-05-28 02:52:13,400 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ORCL"}}}
+2026-05-28 02:52:16,108 INFO    [ 17/200] UNH            UnitedHealth Group Inc
+2026-05-28 02:52:16,568 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: UNH"}}}
+2026-05-28 02:52:19,278 INFO    [ 18/200] JNJ            Johnson & Johnson
+2026-05-28 02:52:19,763 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: JNJ"}}}
+2026-05-28 02:52:22,473 INFO    [ 19/200] PG             Procter & Gamble Co
+2026-05-28 02:52:22,908 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: PG"}}}
+2026-05-28 02:52:25,615 INFO    [ 20/200] HD             Home Depot Inc
+2026-05-28 02:52:26,280 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: HD"}}}
+2026-05-28 02:52:28,987 INFO    [ 21/200] COST           Costco Wholesale Corp
+2026-05-28 02:52:29,498 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: COST"}}}
+2026-05-28 02:52:32,211 INFO    [ 22/200] NFLX           Netflix Inc
+2026-05-28 02:52:32,640 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: NFLX"}}}
+2026-05-28 02:52:35,350 INFO    [ 23/200] BAC            Bank of America Corp
+2026-05-28 02:52:35,814 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BAC"}}}
+2026-05-28 02:52:38,537 INFO    [ 24/200] ABBV           AbbVie Inc
+2026-05-28 02:52:39,054 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ABBV"}}}
+2026-05-28 02:52:41,762 INFO    [ 25/200] CVX            Chevron Corp
+2026-05-28 02:52:42,222 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: CVX"}}}
+2026-05-28 02:52:44,933 INFO    [ 26/200] KO             Coca-Cola Co
+2026-05-28 02:52:45,475 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: KO"}}}
+2026-05-28 02:52:48,180 INFO    [ 27/200] TMUS           T-Mobile US Inc
+2026-05-28 02:52:48,644 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: TMUS"}}}
+2026-05-28 02:52:51,358 INFO    [ 28/200] WFC            Wells Fargo & Co
+2026-05-28 02:52:51,852 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: WFC"}}}
+2026-05-28 02:52:54,559 INFO    [ 29/200] CRM            Salesforce Inc
+2026-05-28 02:52:55,121 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: CRM"}}}
+2026-05-28 02:52:57,829 INFO    [ 30/200] PLTR           Palantir Technologies Inc
+2026-05-28 02:52:58,287 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: PLTR"}}}
+2026-05-28 02:53:00,999 INFO    [ 31/200] ADBE           Adobe Inc
+2026-05-28 02:53:01,509 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ADBE"}}}
+2026-05-28 02:53:04,219 INFO    [ 32/200] MRK            Merck & Co Inc
+2026-05-28 02:53:04,742 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MRK"}}}
+2026-05-28 02:53:07,452 INFO    [ 33/200] CSCO           Cisco Systems Inc
+2026-05-28 02:53:07,892 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: CSCO"}}}
+2026-05-28 02:53:10,598 INFO    [ 34/200] ACN            Accenture plc
+2026-05-28 02:53:11,101 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ACN"}}}
+2026-05-28 02:53:13,807 INFO    [ 35/200] LIN            Linde plc
+2026-05-28 02:53:14,297 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: LIN"}}}
+2026-05-28 02:53:17,019 INFO    [ 36/200] NOW            ServiceNow Inc
+2026-05-28 02:53:17,568 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: NOW"}}}
+2026-05-28 02:53:20,285 INFO    [ 37/200] PEP            PepsiCo Inc
+2026-05-28 02:53:20,821 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: PEP"}}}
+2026-05-28 02:53:23,534 INFO    [ 38/200] TMO            Thermo Fisher Scientific Inc
+2026-05-28 02:53:23,967 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: TMO"}}}
+2026-05-28 02:53:26,681 INFO    [ 39/200] MCD            McDonald's Corp
+2026-05-28 02:53:27,142 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MCD"}}}
+2026-05-28 02:53:29,847 INFO    [ 40/200] DIS            Walt Disney Co
+2026-05-28 02:53:30,336 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: DIS"}}}
+2026-05-28 02:53:33,044 INFO    [ 41/200] IBM            International Business Machines Corp
+2026-05-28 02:53:33,567 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: IBM"}}}
+2026-05-28 02:53:36,284 INFO    [ 42/200] AMD            Advanced Micro Devices Inc
+2026-05-28 02:53:36,833 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: AMD"}}}
+2026-05-28 02:53:39,551 INFO    [ 43/200] INTU           Intuit Inc
+2026-05-28 02:53:40,036 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: INTU"}}}
+2026-05-28 02:53:42,744 INFO    [ 44/200] AXP            American Express Co
+2026-05-28 02:53:43,191 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: AXP"}}}
+2026-05-28 02:53:45,906 INFO    [ 45/200] GS             Goldman Sachs Group Inc
+2026-05-28 02:53:46,371 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GS"}}}
+2026-05-28 02:53:49,081 INFO    [ 46/200] ABT            Abbott Laboratories
+2026-05-28 02:53:49,602 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ABT"}}}
+2026-05-28 02:53:52,314 INFO    [ 47/200] QCOM           QUALCOMM Inc
+2026-05-28 02:53:52,901 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QCOM"}}}
+2026-05-28 02:53:55,635 INFO    [ 48/200] GE             GE Aerospace
+2026-05-28 02:53:56,105 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GE"}}}
+2026-05-28 02:53:58,812 INFO    [ 49/200] MS             Morgan Stanley
+2026-05-28 02:53:59,281 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MS"}}}
+2026-05-28 02:54:01,990 INFO    [ 50/200] RTX            RTX Corp
+2026-05-28 02:54:02,560 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: RTX"}}}
+2026-05-28 02:54:05,283 INFO    [ 51/200] CAT            Caterpillar Inc
+2026-05-28 02:54:05,766 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: CAT"}}}
+2026-05-28 02:54:08,483 INFO    [ 52/200] PM             Philip Morris International Inc
+2026-05-28 02:54:08,940 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: PM"}}}
+2026-05-28 02:54:11,650 INFO    [ 53/200] T              AT&T Inc
+2026-05-28 02:54:12,179 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: T"}}}
+2026-05-28 02:54:14,887 INFO    [ 54/200] TXN            Texas Instruments Inc
+2026-05-28 02:54:15,416 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: TXN"}}}
+2026-05-28 02:54:18,131 INFO    [ 55/200] DHR            Danaher Corp
+2026-05-28 02:54:18,605 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: DHR"}}}
+2026-05-28 02:54:21,309 INFO    [ 56/200] VZ             Verizon Communications Inc
+2026-05-28 02:54:21,771 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: VZ"}}}
+2026-05-28 02:54:24,478 INFO    [ 57/200] ISRG           Intuitive Surgical Inc
+2026-05-28 02:54:24,920 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ISRG"}}}
+2026-05-28 02:54:27,633 INFO    [ 58/200] PFE            Pfizer Inc
+2026-05-28 02:54:28,178 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: PFE"}}}
+2026-05-28 02:54:30,890 INFO    [ 59/200] SPGI           S&P Global Inc
+2026-05-28 02:54:31,498 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SPGI"}}}
+2026-05-28 02:54:34,207 INFO    [ 60/200] BKNG           Booking Holdings Inc
+2026-05-28 02:54:34,741 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BKNG"}}}
+2026-05-28 02:54:37,447 INFO    [ 61/200] LOW            Lowe's Companies Inc
+2026-05-28 02:54:37,931 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: LOW"}}}
+2026-05-28 02:54:40,642 INFO    [ 62/200] HON            Honeywell International Inc
+2026-05-28 02:54:41,130 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: HON"}}}
+2026-05-28 02:54:43,840 INFO    [ 63/200] NEE            NextEra Energy Inc
+2026-05-28 02:54:44,341 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: NEE"}}}
+2026-05-28 02:54:47,053 INFO    [ 64/200] PGR            Progressive Corp
+2026-05-28 02:54:47,601 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: PGR"}}}
+2026-05-28 02:54:50,321 INFO    [ 65/200] UNP            Union Pacific Corp
+2026-05-28 02:54:50,828 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: UNP"}}}
+2026-05-28 02:54:53,537 INFO    [ 66/200] UBER           Uber Technologies Inc
+2026-05-28 02:54:54,002 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: UBER"}}}
+2026-05-28 02:54:56,722 INFO    [ 67/200] AMGN           Amgen Inc
+2026-05-28 02:54:57,229 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: AMGN"}}}
+2026-05-28 02:54:59,938 INFO    [ 68/200] BSX            Boston Scientific Corp
+2026-05-28 02:55:00,513 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BSX"}}}
+2026-05-28 02:55:03,233 INFO    [ 69/200] BLK            BlackRock Inc
+2026-05-28 02:55:03,706 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BLK"}}}
+2026-05-28 02:55:06,419 INFO    [ 70/200] SCHW           Charles Schwab Corp
+2026-05-28 02:55:06,868 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SCHW"}}}
+2026-05-28 02:55:09,582 INFO    [ 71/200] ETN            Eaton Corp plc
+2026-05-28 02:55:10,155 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ETN"}}}
+2026-05-28 02:55:12,871 INFO    [ 72/200] ANET           Arista Networks Inc
+2026-05-28 02:55:13,468 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ANET"}}}
+2026-05-28 02:55:16,183 INFO    [ 73/200] GILD           Gilead Sciences Inc
+2026-05-28 02:55:16,630 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GILD"}}}
+2026-05-28 02:55:19,342 INFO    [ 74/200] DE             Deere & Co
+2026-05-28 02:55:19,845 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: DE"}}}
+2026-05-28 02:55:22,563 INFO    [ 75/200] TJX            TJX Companies Inc
+2026-05-28 02:55:23,103 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: TJX"}}}
+2026-05-28 02:55:25,814 INFO    [ 76/200] LMT            Lockheed Martin Corp
+2026-05-28 02:55:26,373 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: LMT"}}}
+2026-05-28 02:55:29,091 INFO    [ 77/200] C              Citigroup Inc
+2026-05-28 02:55:29,540 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: C"}}}
+2026-05-28 02:55:32,250 INFO    [ 78/200] BX             Blackstone Inc
+2026-05-28 02:55:32,755 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BX"}}}
+2026-05-28 02:55:35,462 INFO    [ 79/200] COP            ConocoPhillips
+2026-05-28 02:55:35,942 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: COP"}}}
+2026-05-28 02:55:38,648 INFO    [ 80/200] ADP            Automatic Data Processing Inc
+2026-05-28 02:55:39,110 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ADP"}}}
+2026-05-28 02:55:41,823 INFO    [ 81/200] SYK            Stryker Corp
+2026-05-28 02:55:42,302 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SYK"}}}
+2026-05-28 02:55:45,006 INFO    [ 82/200] PANW           Palo Alto Networks Inc
+2026-05-28 02:55:45,578 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: PANW"}}}
+2026-05-28 02:55:48,291 INFO    [ 83/200] VRTX           Vertex Pharmaceuticals Inc
+2026-05-28 02:55:48,790 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: VRTX"}}}
+2026-05-28 02:55:51,506 INFO    [ 84/200] MMC            Marsh & McLennan Companies Inc
+2026-05-28 02:55:51,942 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MMC"}}}
+2026-05-28 02:55:52,115 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MMC"}}}
+2026-05-28 02:55:54,830 INFO    [ 85/200] PLD            Prologis Inc
+2026-05-28 02:55:55,342 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: PLD"}}}
+2026-05-28 02:55:58,054 INFO    [ 86/200] MU             Micron Technology Inc
+2026-05-28 02:55:58,564 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MU"}}}
+2026-05-28 02:56:01,285 INFO    [ 87/200] KKR            KKR & Co Inc
+2026-05-28 02:56:01,752 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: KKR"}}}
+2026-05-28 02:56:04,470 INFO    [ 88/200] CB             Chubb Ltd
+2026-05-28 02:56:04,963 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: CB"}}}
+2026-05-28 02:56:07,678 INFO    [ 89/200] LRCX           Lam Research Corp
+2026-05-28 02:56:08,096 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: LRCX"}}}
+2026-05-28 02:56:10,803 INFO    [ 90/200] ELV            Elevance Health Inc
+2026-05-28 02:56:11,258 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ELV"}}}
+2026-05-28 02:56:13,965 INFO    [ 91/200] MDT            Medtronic plc
+2026-05-28 02:56:14,398 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MDT"}}}
+2026-05-28 02:56:17,112 INFO    [ 92/200] SBUX           Starbucks Corp
+2026-05-28 02:56:17,641 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SBUX"}}}
+2026-05-28 02:56:20,353 INFO    [ 93/200] ADI            Analog Devices Inc
+2026-05-28 02:56:20,844 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ADI"}}}
+2026-05-28 02:56:23,563 INFO    [ 94/200] INTC           Intel Corp
+2026-05-28 02:56:24,111 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: INTC"}}}
+2026-05-28 02:56:26,822 INFO    [ 95/200] KLAC           KLA Corp
+2026-05-28 02:56:27,317 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: KLAC"}}}
+2026-05-28 02:56:30,038 INFO    [ 96/200] PYPL           PayPal Holdings Inc
+2026-05-28 02:56:30,543 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: PYPL"}}}
+2026-05-28 02:56:33,251 INFO    [ 97/200] FI             Fiserv Inc
+2026-05-28 02:56:33,377 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FI"}}}
+2026-05-28 02:56:33,684 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FI"}}}
+2026-05-28 02:56:33,909 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FI"}}}
+2026-05-28 02:56:36,616 INFO    [ 98/200] MO             Altria Group Inc
+2026-05-28 02:56:37,138 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MO"}}}
+2026-05-28 02:56:39,850 INFO    [ 99/200] NKE            NIKE Inc
+2026-05-28 02:56:40,428 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: NKE"}}}
+2026-05-28 02:56:43,138 INFO    [100/200] BMY            Bristol-Myers Squibb Co
+2026-05-28 02:56:43,614 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BMY"}}}
+2026-05-28 02:56:46,319 INFO    [101/200] SAP.DE         SAP SE
+2026-05-28 02:56:46,776 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SAP.DE"}}}
+2026-05-28 02:56:49,482 INFO    [102/200] ASML.AS        ASML Holding NV
+2026-05-28 02:56:49,974 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ASML.AS"}}}
+2026-05-28 02:56:52,687 INFO    [103/200] MC.PA          LVMH Moet Hennessy Louis Vuitton SE
+2026-05-28 02:56:53,229 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MC.PA"}}}
+2026-05-28 02:56:55,946 INFO    [104/200] NOVO-B.CO      Novo Nordisk A/S
+2026-05-28 02:56:56,399 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: NOVO-B.CO"}}}
+2026-05-28 02:56:59,115 INFO    [105/200] NESN.SW        Nestle SA
+2026-05-28 02:56:59,581 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: NESN.SW"}}}
+2026-05-28 02:57:02,297 INFO    [106/200] ROG.SW         Roche Holding AG
+2026-05-28 02:57:02,421 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ROG.SW"}}}
+2026-05-28 02:57:02,711 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ROG.SW"}}}
+2026-05-28 02:57:02,831 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ROG.SW"}}}
+2026-05-28 02:57:05,540 INFO    [107/200] SIE.DE         Siemens AG
+2026-05-28 02:57:06,056 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SIE.DE"}}}
+2026-05-28 02:57:08,770 INFO    [108/200] OR.PA          L'Oreal SA
+2026-05-28 02:57:09,279 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: OR.PA"}}}
+2026-05-28 02:57:11,999 INFO    [109/200] TTE.PA         TotalEnergies SE
+2026-05-28 02:57:12,453 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: TTE.PA"}}}
+2026-05-28 02:57:15,169 INFO    [110/200] NOVN.SW        Novartis AG
+2026-05-28 02:57:15,641 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: NOVN.SW"}}}
+2026-05-28 02:57:18,364 INFO    [111/200] ALV.DE         Allianz SE
+2026-05-28 02:57:18,865 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ALV.DE"}}}
+2026-05-28 02:57:21,575 INFO    [112/200] RMS.PA         Hermes International
+2026-05-28 02:57:22,118 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: RMS.PA"}}}
+2026-05-28 02:57:24,824 INFO    [113/200] SAN.PA         Sanofi SA
+2026-05-28 02:57:25,300 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SAN.PA"}}}
+2026-05-28 02:57:28,005 INFO    [114/200] DTE.DE         Deutsche Telekom AG
+2026-05-28 02:57:28,430 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: DTE.DE"}}}
+2026-05-28 02:57:31,145 INFO    [115/200] SU.PA          Schneider Electric SE
+2026-05-28 02:57:31,623 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SU.PA"}}}
+2026-05-28 02:57:34,332 INFO    [116/200] AIR.PA         Airbus SE
+2026-05-28 02:57:34,805 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: AIR.PA"}}}
+2026-05-28 02:57:37,514 INFO    [117/200] ENEL.MI        Enel SpA
+2026-05-28 02:57:38,083 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ENEL.MI"}}}
+2026-05-28 02:57:40,790 INFO    [118/200] IBE.MC         Iberdrola SA
+2026-05-28 02:57:41,294 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: IBE.MC"}}}
+2026-05-28 02:57:44,019 INFO    [119/200] MUV2.DE        Munich Re
+2026-05-28 02:57:44,589 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MUV2.DE"}}}
+2026-05-28 02:57:47,296 INFO    [120/200] BNP.PA         BNP Paribas SA
+2026-05-28 02:57:47,811 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BNP.PA"}}}
+2026-05-28 02:57:50,521 INFO    [121/200] DHL.DE         Deutsche Post AG
+2026-05-28 02:57:50,982 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: DHL.DE"}}}
+2026-05-28 02:57:53,690 INFO    [122/200] ABI.BR         Anheuser-Busch InBev SA
+2026-05-28 02:57:54,213 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ABI.BR"}}}
+2026-05-28 02:57:56,922 INFO    [123/200] ASM.AS         ASM International NV
+2026-05-28 02:57:57,380 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ASM.AS"}}}
+2026-05-28 02:58:00,090 INFO    [124/200] SAN.MC         Banco Santander SA
+2026-05-28 02:58:00,619 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SAN.MC"}}}
+2026-05-28 02:58:03,329 INFO    [125/200] INGA.AS        ING Groep NV
+2026-05-28 02:58:03,790 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: INGA.AS"}}}
+2026-05-28 02:58:06,503 INFO    [126/200] ISP.MI         Intesa Sanpaolo SpA
+2026-05-28 02:58:06,950 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ISP.MI"}}}
+2026-05-28 02:58:09,660 INFO    [127/200] PRX.AS         Prosus NV
+2026-05-28 02:58:10,099 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: PRX.AS"}}}
+2026-05-28 02:58:12,820 INFO    [128/200] ADYEN.AS       Adyen NV
+2026-05-28 02:58:13,282 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ADYEN.AS"}}}
+2026-05-28 02:58:15,992 INFO    [129/200] DG.PA          Vinci SA
+2026-05-28 02:58:16,494 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: DG.PA"}}}
+2026-05-28 02:58:19,211 INFO    [130/200] ENI.MI         Eni SpA
+2026-05-28 02:58:19,704 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ENI.MI"}}}
+2026-05-28 02:58:22,415 INFO    [131/200] EL.PA          EssilorLuxottica SA
+2026-05-28 02:58:22,922 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: EL.PA"}}}
+2026-05-28 02:58:25,634 INFO    [132/200] KER.PA         Kering SA
+2026-05-28 02:58:26,070 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: KER.PA"}}}
+2026-05-28 02:58:28,782 INFO    [133/200] RACE.MI        Ferrari NV
+2026-05-28 02:58:29,347 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: RACE.MI"}}}
+2026-05-28 02:58:32,064 INFO    [134/200] DB1.DE         Deutsche Boerse AG
+2026-05-28 02:58:32,599 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: DB1.DE"}}}
+2026-05-28 02:58:35,308 INFO    [135/200] BAS.DE         BASF SE
+2026-05-28 02:58:35,896 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BAS.DE"}}}
+2026-05-28 02:58:38,611 INFO    [136/200] BAYN.DE        Bayer AG
+2026-05-28 02:58:39,095 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BAYN.DE"}}}
+2026-05-28 02:58:41,806 INFO    [137/200] MBG.DE         Mercedes-Benz Group AG
+2026-05-28 02:58:42,257 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MBG.DE"}}}
+2026-05-28 02:58:44,975 INFO    [138/200] BMW.DE         Bayerische Motoren Werke AG
+2026-05-28 02:58:45,427 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BMW.DE"}}}
+2026-05-28 02:58:48,136 INFO    [139/200] IFX.DE         Infineon Technologies AG
+2026-05-28 02:58:48,636 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: IFX.DE"}}}
+2026-05-28 02:58:51,351 INFO    [140/200] ADS.DE         Adidas AG
+2026-05-28 02:58:51,884 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ADS.DE"}}}
+2026-05-28 02:58:54,591 INFO    [141/200] SHEL.L         Shell plc
+2026-05-28 02:58:55,158 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SHEL.L"}}}
+2026-05-28 02:58:57,869 INFO    [142/200] AZN.L          AstraZeneca plc
+2026-05-28 02:58:58,495 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: AZN.L"}}}
+2026-05-28 02:59:01,204 INFO    [143/200] HSBA.L         HSBC Holdings plc
+2026-05-28 02:59:01,729 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: HSBA.L"}}}
+2026-05-28 02:59:04,459 INFO    [144/200] ULVR.L         Unilever plc
+2026-05-28 02:59:04,985 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ULVR.L"}}}
+2026-05-28 02:59:07,701 INFO    [145/200] RIO.L          Rio Tinto plc
+2026-05-28 02:59:08,149 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: RIO.L"}}}
+2026-05-28 02:59:10,865 INFO    [146/200] BP.L           BP plc
+2026-05-28 02:59:11,822 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BP.L"}}}
+2026-05-28 02:59:14,534 INFO    [147/200] GSK.L          GSK plc
+2026-05-28 02:59:14,985 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GSK.L"}}}
+2026-05-28 02:59:17,697 INFO    [148/200] LSEG.L         London Stock Exchange Group plc
+2026-05-28 02:59:18,258 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: LSEG.L"}}}
+2026-05-28 02:59:20,971 INFO    [149/200] DGE.L          Diageo plc
+2026-05-28 02:59:21,503 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: DGE.L"}}}
+2026-05-28 02:59:24,239 INFO    [150/200] NG.L           National Grid plc
+2026-05-28 02:59:24,768 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: NG.L"}}}
+2026-05-28 02:59:27,484 INFO    [151/200] 7203.T         Toyota Motor Corp
+2026-05-28 02:59:27,992 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 7203.T"}}}
+2026-05-28 02:59:30,700 INFO    [152/200] 6758.T         Sony Group Corp
+2026-05-28 02:59:31,209 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 6758.T"}}}
+2026-05-28 02:59:33,920 INFO    [153/200] 6098.T         Recruit Holdings Co Ltd
+2026-05-28 02:59:34,500 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 6098.T"}}}
+2026-05-28 02:59:37,211 INFO    [154/200] 8306.T         Mitsubishi UFJ Financial Group Inc
+2026-05-28 02:59:37,743 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 8306.T"}}}
+2026-05-28 02:59:40,467 INFO    [155/200] 9984.T         SoftBank Group Corp
+2026-05-28 02:59:40,920 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 9984.T"}}}
+2026-05-28 02:59:43,631 INFO    [156/200] 7974.T         Nintendo Co Ltd
+2026-05-28 02:59:44,172 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 7974.T"}}}
+2026-05-28 02:59:46,891 INFO    [157/200] 8035.T         Tokyo Electron Ltd
+2026-05-28 02:59:47,446 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 8035.T"}}}
+2026-05-28 02:59:50,157 INFO    [158/200] 9983.T         Fast Retailing Co Ltd
+2026-05-28 02:59:50,726 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 9983.T"}}}
+2026-05-28 02:59:53,435 INFO    [159/200] 6861.T         Keyence Corp
+2026-05-28 02:59:53,970 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 6861.T"}}}
+2026-05-28 02:59:56,682 INFO    [160/200] 8316.T         Sumitomo Mitsui Financial Group Inc
+2026-05-28 02:59:57,179 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 8316.T"}}}
+2026-05-28 02:59:59,886 INFO    [161/200] 4063.T         Shin-Etsu Chemical Co Ltd
+2026-05-28 03:00:00,381 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 4063.T"}}}
+2026-05-28 03:00:03,088 INFO    [162/200] 6501.T         Hitachi Ltd
+2026-05-28 03:00:03,639 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 6501.T"}}}
+2026-05-28 03:00:06,360 INFO    [163/200] 9433.T         KDDI Corp
+2026-05-28 03:00:06,871 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 9433.T"}}}
+2026-05-28 03:00:09,578 INFO    [164/200] 9432.T         Nippon Telegraph and Telephone Corp
+2026-05-28 03:00:10,087 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 9432.T"}}}
+2026-05-28 03:00:12,806 INFO    [165/200] 4502.T         Takeda Pharmaceutical Co Ltd
+2026-05-28 03:00:13,363 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 4502.T"}}}
+2026-05-28 03:00:16,081 INFO    [166/200] 7267.T         Honda Motor Co Ltd
+2026-05-28 03:00:16,638 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 7267.T"}}}
+2026-05-28 03:00:19,354 INFO    [167/200] 6594.T         Nidec Corp
+2026-05-28 03:00:19,815 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 6594.T"}}}
+2026-05-28 03:00:22,527 INFO    [168/200] 8001.T         Itochu Corp
+2026-05-28 03:00:23,062 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 8001.T"}}}
+2026-05-28 03:00:25,773 INFO    [169/200] 8058.T         Mitsubishi Corp
+2026-05-28 03:00:26,257 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 8058.T"}}}
+2026-05-28 03:00:28,972 INFO    [170/200] 8053.T         Sumitomo Corp
+2026-05-28 03:00:29,426 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 8053.T"}}}
+2026-05-28 03:00:32,133 INFO    [171/200] 2330.TW        Taiwan Semiconductor Manufacturing Co
+2026-05-28 03:00:32,584 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 2330.TW"}}}
+2026-05-28 03:00:35,292 INFO    [172/200] 2317.TW        Hon Hai Precision Industry Co (Foxconn)
+2026-05-28 03:00:35,748 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 2317.TW"}}}
+2026-05-28 03:00:38,456 INFO    [173/200] 2454.TW        MediaTek Inc
+2026-05-28 03:00:38,944 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 2454.TW"}}}
+2026-05-28 03:00:41,658 INFO    [174/200] 005930.KS      Samsung Electronics Co Ltd
+2026-05-28 03:00:42,143 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 005930.KS"}}}
+2026-05-28 03:00:44,851 INFO    [175/200] 000660.KS      SK Hynix Inc
+2026-05-28 03:00:45,307 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 000660.KS"}}}
+2026-05-28 03:00:48,023 INFO    [176/200] 035420.KS      NAVER Corp
+2026-05-28 03:00:48,502 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 035420.KS"}}}
+2026-05-28 03:00:51,208 INFO    [177/200] 207940.KS      Samsung Biologics Co Ltd
+2026-05-28 03:00:51,812 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 207940.KS"}}}
+2026-05-28 03:00:54,519 INFO    [178/200] 0700.HK        Tencent Holdings Ltd
+2026-05-28 03:00:54,975 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 0700.HK"}}}
+2026-05-28 03:00:57,684 INFO    [179/200] 9988.HK        Alibaba Group Holding Ltd
+2026-05-28 03:00:58,319 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 9988.HK"}}}
+2026-05-28 03:01:01,032 INFO    [180/200] 3690.HK        Meituan
+2026-05-28 03:01:01,552 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 3690.HK"}}}
+2026-05-28 03:01:04,264 INFO    [181/200] 9618.HK        JD.com Inc
+2026-05-28 03:01:04,982 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 9618.HK"}}}
+2026-05-28 03:01:07,691 INFO    [182/200] 1211.HK        BYD Co Ltd
+2026-05-28 03:01:08,154 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 1211.HK"}}}
+2026-05-28 03:01:10,869 INFO    [183/200] 0941.HK        China Mobile Ltd
+2026-05-28 03:01:11,349 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 0941.HK"}}}
+2026-05-28 03:01:14,062 INFO    [184/200] 0388.HK        Hong Kong Exchanges and Clearing Ltd
+2026-05-28 03:01:14,550 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 0388.HK"}}}
+2026-05-28 03:01:17,258 INFO    [185/200] 1299.HK        AIA Group Ltd
+2026-05-28 03:01:17,815 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 1299.HK"}}}
+2026-05-28 03:01:20,523 INFO    [186/200] 0005.HK        HSBC Holdings plc (HK)
+2026-05-28 03:01:20,971 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 0005.HK"}}}
+2026-05-28 03:01:23,680 INFO    [187/200] 1398.HK        Industrial and Commercial Bank of China
+2026-05-28 03:01:24,104 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 1398.HK"}}}
+2026-05-28 03:01:26,823 INFO    [188/200] 3988.HK        Bank of China Ltd
+2026-05-28 03:01:27,345 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 3988.HK"}}}
+2026-05-28 03:01:30,072 INFO    [189/200] 0883.HK        CNOOC Ltd
+2026-05-28 03:01:30,594 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 0883.HK"}}}
+2026-05-28 03:01:33,305 INFO    [190/200] 1810.HK        Xiaomi Corp
+2026-05-28 03:01:33,832 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 1810.HK"}}}
+2026-05-28 03:01:36,542 INFO    [191/200] RELIANCE.NS    Reliance Industries Ltd
+2026-05-28 03:01:37,043 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: RELIANCE.NS"}}}
+2026-05-28 03:01:39,748 INFO    [192/200] TCS.NS         Tata Consultancy Services Ltd
+2026-05-28 03:01:40,222 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: TCS.NS"}}}
+2026-05-28 03:01:42,934 INFO    [193/200] HDFCBANK.NS    HDFC Bank Ltd
+2026-05-28 03:01:43,443 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: HDFCBANK.NS"}}}
+2026-05-28 03:01:46,156 INFO    [194/200] INFY.NS        Infosys Ltd
+2026-05-28 03:01:46,622 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: INFY.NS"}}}
+2026-05-28 03:01:49,331 INFO    [195/200] ICICIBANK.NS   ICICI Bank Ltd
+2026-05-28 03:01:49,808 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ICICIBANK.NS"}}}
+2026-05-28 03:01:52,520 INFO    [196/200] BHARTIARTL.NS  Bharti Airtel Ltd
+2026-05-28 03:01:52,997 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BHARTIARTL.NS"}}}
+2026-05-28 03:01:55,706 INFO    [197/200] ITC.NS         ITC Ltd
+2026-05-28 03:01:56,195 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ITC.NS"}}}
+2026-05-28 03:01:58,904 INFO    [198/200] D05.SI         DBS Group Holdings Ltd
+2026-05-28 03:01:59,414 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: D05.SI"}}}
+2026-05-28 03:02:02,123 INFO    [199/200] O39.SI         Oversea-Chinese Banking Corp
+2026-05-28 03:02:02,607 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: O39.SI"}}}
+2026-05-28 03:02:05,317 INFO    [200/200] U11.SI         United Overseas Bank Ltd
+2026-05-28 03:02:05,835 ERROR   HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: U11.SI"}}}
+2026-05-28 03:02:08,558 INFO    Pipeline complete · 200/200 succeeded · avg 8.5/10 dims live · 654s
+2026-05-28 03:02:08,558 INFO    Output: /home/runner/work/Concentric_Value_Model/Concentric_Value_Model/cvm-data.json
