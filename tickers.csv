@@ -1,0 +1,205 @@
+ticker,name,country,region,sector,index_source
+# === S&P 500 TOP 100 BY MARKET CAP (US) — 50%
+NVDA,NVIDIA Corp,US,US,TECH,SP500
+MSFT,Microsoft Corp,US,US,TECH,SP500
+AAPL,Apple Inc,US,US,TECH,SP500
+GOOGL,Alphabet Inc Class A,US,US,COMM,SP500
+AMZN,Amazon.com Inc,US,US,CONS_C,SP500
+META,Meta Platforms Inc,US,US,COMM,SP500
+TSLA,Tesla Inc,US,US,CONS_C,SP500
+BRK-B,Berkshire Hathaway Inc,US,US,FIN,SP500
+AVGO,Broadcom Inc,US,US,TECH,SP500
+LLY,Eli Lilly and Company,US,US,HEALTH,SP500
+JPM,JPMorgan Chase & Co,US,US,FIN,SP500
+V,Visa Inc,US,US,FIN,SP500
+WMT,Walmart Inc,US,US,CONS_S,SP500
+XOM,Exxon Mobil Corp,US,US,ENERGY,SP500
+MA,Mastercard Inc,US,US,FIN,SP500
+ORCL,Oracle Corp,US,US,TECH,SP500
+UNH,UnitedHealth Group Inc,US,US,HEALTH,SP500
+JNJ,Johnson & Johnson,US,US,HEALTH,SP500
+PG,Procter & Gamble Co,US,US,CONS_S,SP500
+HD,Home Depot Inc,US,US,CONS_C,SP500
+COST,Costco Wholesale Corp,US,US,CONS_S,SP500
+NFLX,Netflix Inc,US,US,COMM,SP500
+BAC,Bank of America Corp,US,US,FIN,SP500
+ABBV,AbbVie Inc,US,US,HEALTH,SP500
+CVX,Chevron Corp,US,US,ENERGY,SP500
+KO,Coca-Cola Co,US,US,CONS_S,SP500
+TMUS,T-Mobile US Inc,US,US,COMM,SP500
+WFC,Wells Fargo & Co,US,US,FIN,SP500
+CRM,Salesforce Inc,US,US,TECH,SP500
+PLTR,Palantir Technologies Inc,US,US,TECH,SP500
+ADBE,Adobe Inc,US,US,TECH,SP500
+MRK,Merck & Co Inc,US,US,HEALTH,SP500
+CSCO,Cisco Systems Inc,US,US,TECH,SP500
+ACN,Accenture plc,US,US,TECH,SP500
+LIN,Linde plc,US,US,MAT,SP500
+NOW,ServiceNow Inc,US,US,TECH,SP500
+PEP,PepsiCo Inc,US,US,CONS_S,SP500
+TMO,Thermo Fisher Scientific Inc,US,US,HEALTH,SP500
+MCD,McDonald's Corp,US,US,CONS_C,SP500
+DIS,Walt Disney Co,US,US,COMM,SP500
+IBM,International Business Machines Corp,US,US,TECH,SP500
+AMD,Advanced Micro Devices Inc,US,US,TECH,SP500
+INTU,Intuit Inc,US,US,TECH,SP500
+AXP,American Express Co,US,US,FIN,SP500
+GS,Goldman Sachs Group Inc,US,US,FIN,SP500
+ABT,Abbott Laboratories,US,US,HEALTH,SP500
+QCOM,QUALCOMM Inc,US,US,TECH,SP500
+GE,GE Aerospace,US,US,IND,SP500
+MS,Morgan Stanley,US,US,FIN,SP500
+RTX,RTX Corp,US,US,IND,SP500
+CAT,Caterpillar Inc,US,US,IND,SP500
+PM,Philip Morris International Inc,US,US,CONS_S,SP500
+T,AT&T Inc,US,US,COMM,SP500
+TXN,Texas Instruments Inc,US,US,TECH,SP500
+DHR,Danaher Corp,US,US,HEALTH,SP500
+VZ,Verizon Communications Inc,US,US,COMM,SP500
+ISRG,Intuitive Surgical Inc,US,US,HEALTH,SP500
+PFE,Pfizer Inc,US,US,HEALTH,SP500
+SPGI,S&P Global Inc,US,US,FIN,SP500
+BKNG,Booking Holdings Inc,US,US,CONS_C,SP500
+LOW,Lowe's Companies Inc,US,US,CONS_C,SP500
+HON,Honeywell International Inc,US,US,IND,SP500
+NEE,NextEra Energy Inc,US,US,UTIL,SP500
+PGR,Progressive Corp,US,US,FIN,SP500
+UNP,Union Pacific Corp,US,US,IND,SP500
+UBER,Uber Technologies Inc,US,US,IND,SP500
+AMGN,Amgen Inc,US,US,HEALTH,SP500
+BSX,Boston Scientific Corp,US,US,HEALTH,SP500
+BLK,BlackRock Inc,US,US,FIN,SP500
+SCHW,Charles Schwab Corp,US,US,FIN,SP500
+ETN,Eaton Corp plc,US,US,IND,SP500
+ANET,Arista Networks Inc,US,US,TECH,SP500
+GILD,Gilead Sciences Inc,US,US,HEALTH,SP500
+DE,Deere & Co,US,US,IND,SP500
+TJX,TJX Companies Inc,US,US,CONS_C,SP500
+LMT,Lockheed Martin Corp,US,US,IND,SP500
+C,Citigroup Inc,US,US,FIN,SP500
+BX,Blackstone Inc,US,US,FIN,SP500
+COP,ConocoPhillips,US,US,ENERGY,SP500
+ADP,Automatic Data Processing Inc,US,US,TECH,SP500
+SYK,Stryker Corp,US,US,HEALTH,SP500
+PANW,Palo Alto Networks Inc,US,US,TECH,SP500
+VRTX,Vertex Pharmaceuticals Inc,US,US,HEALTH,SP500
+MMC,Marsh & McLennan Companies Inc,US,US,FIN,SP500
+PLD,Prologis Inc,US,US,REAL,SP500
+MU,Micron Technology Inc,US,US,TECH,SP500
+KKR,KKR & Co Inc,US,US,FIN,SP500
+CB,Chubb Ltd,US,US,FIN,SP500
+LRCX,Lam Research Corp,US,US,TECH,SP500
+ELV,Elevance Health Inc,US,US,HEALTH,SP500
+MDT,Medtronic plc,US,US,HEALTH,SP500
+SBUX,Starbucks Corp,US,US,CONS_C,SP500
+ADI,Analog Devices Inc,US,US,TECH,SP500
+INTC,Intel Corp,US,US,TECH,SP500
+KLAC,KLA Corp,US,US,TECH,SP500
+PYPL,PayPal Holdings Inc,US,US,FIN,SP500
+FI,Fiserv Inc,US,US,FIN,SP500
+MO,Altria Group Inc,US,US,CONS_S,SP500
+NKE,NIKE Inc,US,US,CONS_C,SP500
+BMY,Bristol-Myers Squibb Co,US,US,HEALTH,SP500
+# === EUROSTOXX + UK TOP 50 — 25%
+SAP.DE,SAP SE,DE,EU,TECH,DAX
+ASML.AS,ASML Holding NV,NL,EU,TECH,AEX
+MC.PA,LVMH Moet Hennessy Louis Vuitton SE,FR,EU,CONS_C,CAC
+NOVO-B.CO,Novo Nordisk A/S,DK,EU,HEALTH,OMX
+NESN.SW,Nestle SA,CH,EU,CONS_S,SMI
+ROG.SW,Roche Holding AG,CH,EU,HEALTH,SMI
+SIE.DE,Siemens AG,DE,EU,IND,DAX
+OR.PA,L'Oreal SA,FR,EU,CONS_S,CAC
+TTE.PA,TotalEnergies SE,FR,EU,ENERGY,CAC
+NOVN.SW,Novartis AG,CH,EU,HEALTH,SMI
+ALV.DE,Allianz SE,DE,EU,FIN,DAX
+RMS.PA,Hermes International,FR,EU,CONS_C,CAC
+SAN.PA,Sanofi SA,FR,EU,HEALTH,CAC
+DTE.DE,Deutsche Telekom AG,DE,EU,COMM,DAX
+SU.PA,Schneider Electric SE,FR,EU,IND,CAC
+AIR.PA,Airbus SE,FR,EU,IND,CAC
+ENEL.MI,Enel SpA,IT,EU,UTIL,FTSEMIB
+IBE.MC,Iberdrola SA,ES,EU,UTIL,IBEX
+MUV2.DE,Munich Re,DE,EU,FIN,DAX
+BNP.PA,BNP Paribas SA,FR,EU,FIN,CAC
+DHL.DE,Deutsche Post AG,DE,EU,IND,DAX
+ABI.BR,Anheuser-Busch InBev SA,BE,EU,CONS_S,BEL20
+ASM.AS,ASM International NV,NL,EU,TECH,AEX
+SAN.MC,Banco Santander SA,ES,EU,FIN,IBEX
+INGA.AS,ING Groep NV,NL,EU,FIN,AEX
+ISP.MI,Intesa Sanpaolo SpA,IT,EU,FIN,FTSEMIB
+PRX.AS,Prosus NV,NL,EU,COMM,AEX
+ADYEN.AS,Adyen NV,NL,EU,TECH,AEX
+DG.PA,Vinci SA,FR,EU,IND,CAC
+ENI.MI,Eni SpA,IT,EU,ENERGY,FTSEMIB
+EL.PA,EssilorLuxottica SA,FR,EU,HEALTH,CAC
+KER.PA,Kering SA,FR,EU,CONS_C,CAC
+RACE.MI,Ferrari NV,IT,EU,CONS_C,FTSEMIB
+DB1.DE,Deutsche Boerse AG,DE,EU,FIN,DAX
+BAS.DE,BASF SE,DE,EU,MAT,DAX
+BAYN.DE,Bayer AG,DE,EU,HEALTH,DAX
+MBG.DE,Mercedes-Benz Group AG,DE,EU,CONS_C,DAX
+BMW.DE,Bayerische Motoren Werke AG,DE,EU,CONS_C,DAX
+IFX.DE,Infineon Technologies AG,DE,EU,TECH,DAX
+ADS.DE,Adidas AG,DE,EU,CONS_C,DAX
+SHEL.L,Shell plc,GB,EU,ENERGY,FTSE
+AZN.L,AstraZeneca plc,GB,EU,HEALTH,FTSE
+HSBA.L,HSBC Holdings plc,GB,EU,FIN,FTSE
+ULVR.L,Unilever plc,GB,EU,CONS_S,FTSE
+RIO.L,Rio Tinto plc,GB,EU,MAT,FTSE
+BP.L,BP plc,GB,EU,ENERGY,FTSE
+GSK.L,GSK plc,GB,EU,HEALTH,FTSE
+LSEG.L,London Stock Exchange Group plc,GB,EU,FIN,FTSE
+DGE.L,Diageo plc,GB,EU,CONS_S,FTSE
+NG.L,National Grid plc,GB,EU,UTIL,FTSE
+# === NIKKEI TOP 20 (JAPAN) — 10%
+7203.T,Toyota Motor Corp,JP,APAC,CONS_C,NIKKEI
+6758.T,Sony Group Corp,JP,APAC,CONS_C,NIKKEI
+6098.T,Recruit Holdings Co Ltd,JP,APAC,IND,NIKKEI
+8306.T,Mitsubishi UFJ Financial Group Inc,JP,APAC,FIN,NIKKEI
+9984.T,SoftBank Group Corp,JP,APAC,COMM,NIKKEI
+7974.T,Nintendo Co Ltd,JP,APAC,COMM,NIKKEI
+8035.T,Tokyo Electron Ltd,JP,APAC,TECH,NIKKEI
+9983.T,Fast Retailing Co Ltd,JP,APAC,CONS_C,NIKKEI
+6861.T,Keyence Corp,JP,APAC,TECH,NIKKEI
+8316.T,Sumitomo Mitsui Financial Group Inc,JP,APAC,FIN,NIKKEI
+4063.T,Shin-Etsu Chemical Co Ltd,JP,APAC,MAT,NIKKEI
+6501.T,Hitachi Ltd,JP,APAC,IND,NIKKEI
+9433.T,KDDI Corp,JP,APAC,COMM,NIKKEI
+9432.T,Nippon Telegraph and Telephone Corp,JP,APAC,COMM,NIKKEI
+4502.T,Takeda Pharmaceutical Co Ltd,JP,APAC,HEALTH,NIKKEI
+7267.T,Honda Motor Co Ltd,JP,APAC,CONS_C,NIKKEI
+6594.T,Nidec Corp,JP,APAC,IND,NIKKEI
+8001.T,Itochu Corp,JP,APAC,IND,NIKKEI
+8058.T,Mitsubishi Corp,JP,APAC,IND,NIKKEI
+8053.T,Sumitomo Corp,JP,APAC,IND,NIKKEI
+# === APAC EX-JAPAN TOP 30 — 15%
+2330.TW,Taiwan Semiconductor Manufacturing Co,TW,APAC,TECH,TWSE
+2317.TW,Hon Hai Precision Industry Co (Foxconn),TW,APAC,TECH,TWSE
+2454.TW,MediaTek Inc,TW,APAC,TECH,TWSE
+005930.KS,Samsung Electronics Co Ltd,KR,APAC,TECH,KOSPI
+000660.KS,SK Hynix Inc,KR,APAC,TECH,KOSPI
+035420.KS,NAVER Corp,KR,APAC,COMM,KOSPI
+207940.KS,Samsung Biologics Co Ltd,KR,APAC,HEALTH,KOSPI
+0700.HK,Tencent Holdings Ltd,CN,APAC,COMM,HSI
+9988.HK,Alibaba Group Holding Ltd,CN,APAC,CONS_C,HSI
+3690.HK,Meituan,CN,APAC,CONS_C,HSI
+9618.HK,JD.com Inc,CN,APAC,CONS_C,HSI
+1211.HK,BYD Co Ltd,CN,APAC,CONS_C,HSI
+0941.HK,China Mobile Ltd,CN,APAC,COMM,HSI
+0388.HK,Hong Kong Exchanges and Clearing Ltd,HK,APAC,FIN,HSI
+1299.HK,AIA Group Ltd,HK,APAC,FIN,HSI
+0005.HK,HSBC Holdings plc (HK),HK,APAC,FIN,HSI
+1398.HK,Industrial and Commercial Bank of China,CN,APAC,FIN,HSI
+3988.HK,Bank of China Ltd,CN,APAC,FIN,HSI
+0883.HK,CNOOC Ltd,CN,APAC,ENERGY,HSI
+1810.HK,Xiaomi Corp,CN,APAC,TECH,HSI
+RELIANCE.NS,Reliance Industries Ltd,IN,APAC,ENERGY,NIFTY
+TCS.NS,Tata Consultancy Services Ltd,IN,APAC,TECH,NIFTY
+HDFCBANK.NS,HDFC Bank Ltd,IN,APAC,FIN,NIFTY
+INFY.NS,Infosys Ltd,IN,APAC,TECH,NIFTY
+ICICIBANK.NS,ICICI Bank Ltd,IN,APAC,FIN,NIFTY
+BHARTIARTL.NS,Bharti Airtel Ltd,IN,APAC,COMM,NIFTY
+ITC.NS,ITC Ltd,IN,APAC,CONS_S,NIFTY
+D05.SI,DBS Group Holdings Ltd,SG,APAC,FIN,STI
+O39.SI,Oversea-Chinese Banking Corp,SG,APAC,FIN,STI
+U11.SI,United Overseas Bank Ltd,SG,APAC,FIN,STI
