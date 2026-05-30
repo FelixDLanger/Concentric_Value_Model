@@ -83,7 +83,7 @@ ADP,Automatic Data Processing Inc,US,US,TECH,SP500
 SYK,Stryker Corp,US,US,HEALTH,SP500
 PANW,Palo Alto Networks Inc,US,US,TECH,SP500
 VRTX,Vertex Pharmaceuticals Inc,US,US,HEALTH,SP500
-MMC,Marsh & McLennan Companies Inc,US,US,FIN,SP500
+MRSH,Marsh & McLennan Companies Inc,US,US,FIN,SP500
 PLD,Prologis Inc,US,US,REAL,SP500
 MU,Micron Technology Inc,US,US,TECH,SP500
 KKR,KKR & Co Inc,US,US,FIN,SP500
@@ -96,7 +96,7 @@ ADI,Analog Devices Inc,US,US,TECH,SP500
 INTC,Intel Corp,US,US,TECH,SP500
 KLAC,KLA Corp,US,US,TECH,SP500
 PYPL,PayPal Holdings Inc,US,US,FIN,SP500
-FI,Fiserv Inc,US,US,FIN,SP500
+FISV,Fiserv Inc,US,US,FIN,SP500
 MO,Altria Group Inc,US,US,CONS_S,SP500
 NKE,NIKE Inc,US,US,CONS_C,SP500
 BMY,Bristol-Myers Squibb Co,US,US,HEALTH,SP500
