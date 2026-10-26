@@ -748,13 +748,13 @@ def compute_dimensions(td: TickerData, macro: dict[str, dict[str, float]]) -> tu
     return dims, data_driven
 
 
-# Layer weights (mirrors LAYERS in the JS tool)
+# Layer weights (mirrors LAYERS in the JS tool; per Langer, SSRN 6846940)
 LAYERS = [
     {"id": "macro",    "weight": 0.10, "dims": ["macro_environment"]},
     {"id": "fin_arch", "weight": 0.20, "dims": ["financial_metrics", "financial_engineering"]},
-    {"id": "corp_pos", "weight": 0.22, "dims": ["tech_adoption", "strategic_transformation"]},
+    {"id": "corp_pos", "weight": 0.25, "dims": ["tech_adoption", "strategic_transformation"]},
     {"id": "gov",      "weight": 0.25, "dims": ["management_stake", "ownership_structure"]},
-    {"id": "org_core", "weight": 0.18, "dims": ["culture_purpose", "progressive_practices"]},
+    {"id": "org_core", "weight": 0.15, "dims": ["culture_purpose", "progressive_practices"]},
     {"id": "market",   "weight": 0.05, "dims": ["market_dynamics"]},
 ]
 
