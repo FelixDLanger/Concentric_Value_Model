@@ -426,7 +426,7 @@
         "org_core": 60,
         "market": 57
       },
-      "composite": 63,
+      "composite": 64,
       "quartile": "Q2",
       "warnings": [],
       "errors": []
@@ -639,7 +639,7 @@
         "org_core": 65,
         "market": 58
       },
-      "composite": 67,
+      "composite": 68,
       "quartile": "Q2",
       "warnings": [],
       "errors": []
@@ -852,7 +852,7 @@
         "org_core": 50,
         "market": 56
       },
-      "composite": 53,
+      "composite": 54,
       "quartile": "Q3",
       "warnings": [],
       "errors": []
@@ -993,7 +993,7 @@
         "org_core": 42,
         "market": 56
       },
-      "composite": 53,
+      "composite": 54,
       "quartile": "Q3",
       "warnings": [],
       "errors": []
@@ -1135,7 +1135,7 @@
         "org_core": 65,
         "market": 57
       },
-      "composite": 68,
+      "composite": 69,
       "quartile": "Q2",
       "warnings": [],
       "errors": []
@@ -1346,7 +1346,7 @@
         "org_core": 58,
         "market": 54
       },
-      "composite": 57,
+      "composite": 56,
       "quartile": "Q3",
       "warnings": [],
       "errors": []
@@ -1769,7 +1769,7 @@
         "org_core": 42,
         "market": 59
       },
-      "composite": 55,
+      "composite": 56,
       "quartile": "Q3",
       "warnings": [],
       "errors": []
@@ -2051,7 +2051,7 @@
         "org_core": 65,
         "market": 58
       },
-      "composite": 64,
+      "composite": 65,
       "quartile": "Q2",
       "warnings": [],
       "errors": []
@@ -2264,7 +2264,7 @@
         "org_core": 60,
         "market": 44
       },
-      "composite": 52,
+      "composite": 53,
       "quartile": "Q3",
       "warnings": [],
       "errors": []
@@ -2335,7 +2335,7 @@
         "org_core": 65,
         "market": 59
       },
-      "composite": 64,
+      "composite": 65,
       "quartile": "Q2",
       "warnings": [],
       "errors": []
@@ -3182,7 +3182,7 @@
         "org_core": 50,
         "market": 59
       },
-      "composite": 58,
+      "composite": 59,
       "quartile": "Q2",
       "warnings": [],
       "errors": []
@@ -4101,7 +4101,7 @@
         "org_core": 60,
         "market": 43
       },
-      "composite": 58,
+      "composite": 59,
       "quartile": "Q2",
       "warnings": [],
       "errors": []
@@ -4664,7 +4664,7 @@
         "org_core": 54,
         "market": 64
       },
-      "composite": 59,
+      "composite": 60,
       "quartile": "Q2",
       "warnings": [],
       "errors": []
@@ -4806,7 +4806,7 @@
         "org_core": 60,
         "market": 55
       },
-      "composite": 58,
+      "composite": 59,
       "quartile": "Q2",
       "warnings": [],
       "errors": []
@@ -5443,7 +5443,7 @@
         "org_core": 50,
         "market": 56
       },
-      "composite": 56,
+      "composite": 57,
       "quartile": "Q3",
       "warnings": [],
       "errors": []
@@ -6081,7 +6081,7 @@
         "org_core": 65,
         "market": 50
       },
-      "composite": 68,
+      "composite": 69,
       "quartile": "Q2",
       "warnings": [],
       "errors": []
@@ -6152,8 +6152,8 @@
         "org_core": 50,
         "market": 55
       },
-      "composite": 57,
-      "quartile": "Q3",
+      "composite": 58,
+      "quartile": "Q2",
       "warnings": [],
       "errors": []
     },
@@ -6223,7 +6223,7 @@
         "org_core": 50,
         "market": 53
       },
-      "composite": 56,
+      "composite": 57,
       "quartile": "Q3",
       "warnings": [],
       "errors": []
@@ -6294,7 +6294,7 @@
         "org_core": 65,
         "market": 52
       },
-      "composite": 63,
+      "composite": 64,
       "quartile": "Q2",
       "warnings": [],
       "errors": []
@@ -6575,7 +6575,7 @@
         "org_core": 65,
         "market": 57
       },
-      "composite": 64,
+      "composite": 65,
       "quartile": "Q2",
       "warnings": [],
       "errors": []
@@ -6646,7 +6646,7 @@
         "org_core": 65,
         "market": 50
       },
-      "composite": 64,
+      "composite": 65,
       "quartile": "Q2",
       "warnings": [],
       "errors": []
@@ -7069,7 +7069,7 @@
         "org_core": 60,
         "market": 44
       },
-      "composite": 62,
+      "composite": 63,
       "quartile": "Q2",
       "warnings": [],
       "errors": []
@@ -7140,7 +7140,7 @@
         "org_core": 65,
         "market": 60
       },
-      "composite": 65,
+      "composite": 66,
       "quartile": "Q2",
       "warnings": [],
       "errors": []
@@ -7629,7 +7629,7 @@
         "org_core": 58,
         "market": 55
       },
-      "composite": 57,
+      "composite": 56,
       "quartile": "Q3",
       "warnings": [],
       "errors": []
@@ -8690,7 +8690,7 @@
         "org_core": 65,
         "market": 54
       },
-      "composite": 64,
+      "composite": 65,
       "quartile": "Q2",
       "warnings": [],
       "errors": []
@@ -9113,7 +9113,7 @@
         "org_core": 54,
         "market": 65
       },
-      "composite": 58,
+      "composite": 59,
       "quartile": "Q2",
       "warnings": [],
       "errors": []
@@ -9184,7 +9184,7 @@
         "org_core": 42,
         "market": 55
       },
-      "composite": 52,
+      "composite": 53,
       "quartile": "Q3",
       "warnings": [],
       "errors": []
@@ -9467,7 +9467,7 @@
         "org_core": 50,
         "market": 49
       },
-      "composite": 54,
+      "composite": 55,
       "quartile": "Q3",
       "warnings": [],
       "errors": []
@@ -9680,7 +9680,7 @@
         "org_core": 58,
         "market": 65
       },
-      "composite": 59,
+      "composite": 58,
       "quartile": "Q2",
       "warnings": [],
       "errors": []
@@ -9750,7 +9750,7 @@
         "org_core": 58,
         "market": 68
       },
-      "composite": 57,
+      "composite": 56,
       "quartile": "Q3",
       "warnings": [],
       "errors": []
@@ -9891,8 +9891,8 @@
         "org_core": 58,
         "market": 67
       },
-      "composite": 58,
-      "quartile": "Q2",
+      "composite": 57,
+      "quartile": "Q3",
       "warnings": [],
       "errors": []
     },
@@ -9962,7 +9962,7 @@
         "org_core": 42,
         "market": 56
       },
-      "composite": 53,
+      "composite": 54,
       "quartile": "Q3",
       "warnings": [],
       "errors": []
@@ -10033,7 +10033,7 @@
         "org_core": 60,
         "market": 48
       },
-      "composite": 59,
+      "composite": 60,
       "quartile": "Q2",
       "warnings": [],
       "errors": []
@@ -10104,8 +10104,8 @@
         "org_core": 50,
         "market": 51
       },
-      "composite": 57,
-      "quartile": "Q3",
+      "composite": 58,
+      "quartile": "Q2",
       "warnings": [],
       "errors": []
     },
@@ -10245,8 +10245,8 @@
         "org_core": 51,
         "market": 60
       },
-      "composite": 57,
-      "quartile": "Q3",
+      "composite": 58,
+      "quartile": "Q2",
       "warnings": [],
       "errors": []
     },
@@ -10316,7 +10316,7 @@
         "org_core": 42,
         "market": 57
       },
-      "composite": 52,
+      "composite": 53,
       "quartile": "Q3",
       "warnings": [],
       "errors": []
@@ -10809,8 +10809,8 @@
         "org_core": 54,
         "market": 56
       },
-      "composite": 57,
-      "quartile": "Q3",
+      "composite": 58,
+      "quartile": "Q2",
       "warnings": [],
       "errors": []
     },
@@ -11229,7 +11229,7 @@
         "org_core": 65,
         "market": 57
       },
-      "composite": 66,
+      "composite": 67,
       "quartile": "Q2",
       "warnings": [],
       "errors": []
@@ -11300,8 +11300,8 @@
         "org_core": 50,
         "market": 50
       },
-      "composite": 57,
-      "quartile": "Q3",
+      "composite": 58,
+      "quartile": "Q2",
       "warnings": [],
       "errors": []
     },
@@ -11440,7 +11440,7 @@
         "org_core": 54,
         "market": 53
       },
-      "composite": 55,
+      "composite": 56,
       "quartile": "Q3",
       "warnings": [],
       "errors": []
@@ -12143,7 +12143,7 @@
         "org_core": 65,
         "market": 60
       },
-      "composite": 65,
+      "composite": 66,
       "quartile": "Q2",
       "warnings": [],
       "errors": []
@@ -12636,7 +12636,7 @@
         "org_core": 58,
         "market": 63
       },
-      "composite": 57,
+      "composite": 56,
       "quartile": "Q3",
       "warnings": [],
       "errors": []
@@ -12707,7 +12707,7 @@
         "org_core": 58,
         "market": 60
       },
-      "composite": 58,
+      "composite": 59,
       "quartile": "Q2",
       "warnings": [],
       "errors": []
@@ -14051,7 +14051,7 @@
         "org_core": 50,
         "market": 47
       },
-      "composite": 58,
+      "composite": 59,
       "quartile": "Q2",
       "warnings": [],
       "errors": []
